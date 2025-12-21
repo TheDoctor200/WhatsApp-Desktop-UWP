@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2024 WhatsApp Desktop UWP Archive Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT NOTICE:
+
+This license applies ONLY to the documentation, guides, and textual content
+in this repository created by contributors to this archive project.
+
+This license does NOT apply to:
+- The WhatsApp application or any WhatsApp intellectual property
+- WhatsApp trademarks, logos, or branding (owned by WhatsApp LLC/Meta)
+- Microsoft Windows, UWP, XAML, or related technologies (owned by Microsoft)
+- Any third-party software, libraries, or frameworks mentioned
+- Any archived application binaries (subject to their original licenses)
+
+The WhatsApp application remains the property of WhatsApp LLC and 
+Meta Platforms, Inc., subject to their respective terms of service,
+privacy policies, and end-user license agreements.
+
+For full legal information, see DISCLAIMER.md
