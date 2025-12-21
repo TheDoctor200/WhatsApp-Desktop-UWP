@@ -156,8 +156,8 @@ If you need a lighter WhatsApp client, consider:
 
 ## Version History
 
-- **Original UWP App** - Released ~2016, discontinued ~2023
-- **Patched Archive** - Community-maintained with update blocks
+- **Original UWP App** - Released ~2016, discontinued End of 2025
+- **Patched Archive** - (Community-maintained) with update blocks
 
 ## License
 
