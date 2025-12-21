@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="WhatsApp Desktop UWP Archive (unofficial documentation banner)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a12"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Right-side illustration: generic desktop window + chat bubble (original, no logos) -->
+  <g transform="translate(740,36)" filter="url(#softShadow)">
+    <!-- Window -->
+    <rect x="0" y="0" width="400" height="188" rx="18" fill="#0f2a1d" stroke="#1f5a3c" stroke-width="2"/>
+    <rect x="0" y="0" width="400" height="40" rx="18" fill="#123524"/>
+    <circle cx="26" cy="20" r="6" fill="#22c55e"/>
+    <circle cx="48" cy="20" r="6" fill="#16a34a" opacity="0.8"/>
+    <circle cx="70" cy="20" r="6" fill="#14532d" opacity="0.9"/>
+
+    <!-- Sidebar -->
+    <rect x="18" y="58" width="110" height="112" rx="12" fill="#0b1f16" stroke="#1f5a3c" stroke-width="1"/>
+    <rect x="34" y="76" width="78" height="10" rx="5" fill="#1f5a3c" opacity="0.9"/>
+    <rect x="34" y="98" width="64" height="10" rx="5" fill="#1f5a3c" opacity="0.7"/>
+    <rect x="34" y="120" width="72" height="10" rx="5" fill="#1f5a3c" opacity="0.6"/>
+    <rect x="34" y="142" width="58" height="10" rx="5" fill="#1f5a3c" opacity="0.5"/>
+
+    <!-- Chat area -->
+    <rect x="142" y="58" width="240" height="112" rx="12" fill="#0b1f16" stroke="#1f5a3c" stroke-width="1"/>
+
+    <!-- Chat bubbles -->
+    <rect x="160" y="78" width="160" height="20" rx="10" fill="#1f5a3c" opacity="0.55"/>
+    <rect x="210" y="108" width="150" height="20" rx="10" fill="#22c55e" opacity="0.55"/>
+    <rect x="160" y="138" width="130" height="20" rx="10" fill="#1f5a3c" opacity="0.45"/>
+  </g>
+
+  <!-- Left text -->
+  <text x="64" y="110" fill="#e5e7eb" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="700">
+    WhatsApp Desktop UWP — Archive
+  </text>
+  <text x="64" y="154" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18">
+    Unofficial documentation & preservation notes for the legacy native Windows client
+  </text>
+
+  <!-- Tags -->
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" fill="#e5e7eb">
+    <rect x="64" y="184" width="172" height="32" rx="16" fill="#0f2a1d" stroke="#1f5a3c" stroke-width="1"/>
+    <text x="84" y="205">Native UWP</text>
+
+    <rect x="246" y="184" width="210" height="32" rx="16" fill="#0f2a1d" stroke="#1f5a3c" stroke-width="1"/>
+    <text x="266" y="205">Lower overhead</text>
+
+    <rect x="468" y="184" width="250" height="32" rx="16" fill="#0f2a1d" stroke="#1f5a3c" stroke-width="1"/>
+    <text x="488" y="205">Windows integration</text>
+  </g>
+</svg>

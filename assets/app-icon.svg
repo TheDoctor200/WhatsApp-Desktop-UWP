@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Generic desktop chat icon (placeholder)">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="24" y="28" width="208" height="150" rx="22" fill="#0b1220" stroke="#25314d" stroke-width="6"/>
+  <rect x="24" y="28" width="208" height="34" rx="22" fill="#111b2e"/>
+  <circle cx="52" cy="45" r="7" fill="url(#g)"/>
+  <circle cx="74" cy="45" r="7" fill="#1f5a3c"/>
+  <circle cx="96" cy="45" r="7" fill="#25314d"/>
+
+  <!-- Chat bubble -->
+  <path d="M70 88c0-16 13-29 29-29h58c16 0 29 13 29 29v24c0 16-13 29-29 29h-30l-20 16c-3 2-7 0-7-4v-12H99c-16 0-29-13-29-29V88z"
+        fill="url(#g)"/>
+
+  <!-- Lines -->
+  <rect x="98" y="92" width="66" height="10" rx="5" fill="#0b1220" opacity="0.55"/>
+  <rect x="98" y="110" width="52" height="10" rx="5" fill="#0b1220" opacity="0.45"/>
+
+  <!-- Stand -->
+  <rect x="104" y="188" width="48" height="20" rx="10" fill="#111b2e"/>
+  <rect x="76" y="206" width="104" height="18" rx="9" fill="#0f2a1d" stroke="#1f5a3c" stroke-width="3"/>
+</svg>

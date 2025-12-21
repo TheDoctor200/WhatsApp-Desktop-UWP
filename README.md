@@ -1,10 +1,16 @@
 # WhatsApp Desktop UWP - Archive
 
+![WhatsApp Desktop UWP Archive banner](assets/banner.svg)
+
+> **Note**: This repository does not ship official WhatsApp logos/icons. Included visuals are original placeholders for documentation styling.
+
 > **Archive Notice**: This repository serves as documentation and information about the original WhatsApp Desktop UWP application for Windows 10/11. This is an archived version with update protection to prevent forced migration to the WebView2-based version.
 
 ## Overview
 
 This is an archive of the **old native WhatsApp Desktop UWP app** that was available before Microsoft's transition to the WebView2-based version. The original app was a true Universal Windows Platform (UWP) application built with modern Windows technologies.
+
+![High-level architecture diagram](assets/architecture.svg)
 
 ## Why This Archive Exists
 
@@ -40,6 +46,8 @@ The old native UWP app included:
 - 🔒 **Sandboxed UWP** - Modern Windows app isolation
 
 ## Version Comparison
+
+![UWP vs WebView2 (approximate resource profile)](assets/comparison.svg)
 
 | Feature | Old UWP App | New WebView2 App |
 |---------|-------------|------------------|

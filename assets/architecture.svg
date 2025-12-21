@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="High-level architecture: XAML UI to networking core">
+  <defs>
+    <style>
+      .bg { fill: #0b1220; }
+      .card { fill: #111b2e; stroke: #25314d; stroke-width: 2; }
+      .title { fill: #e5e7eb; font: 700 22px 'Segoe UI', Inter, Arial, sans-serif; }
+      .text { fill: #cbd5e1; font: 16px 'Segoe UI', Inter, Arial, sans-serif; }
+      .muted { fill: #94a3b8; font: 14px 'Segoe UI', Inter, Arial, sans-serif; }
+      .arrow { stroke: #4f8cff; stroke-width: 3; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#4f8cff"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="420"/>
+
+  <text x="60" y="64" class="title">High-level architecture (archival overview)</text>
+  <text x="60" y="92" class="muted">Illustrative only — not source code and not an implementation guide.</text>
+
+  <!-- Boxes -->
+  <rect class="card" x="80"  y="140" width="220" height="110" rx="14"/>
+  <text class="title" x="110" y="184" font-size="18">XAML UI</text>
+  <text class="text"  x="110" y="212">User interactions</text>
+
+  <rect class="card" x="360" y="140" width="240" height="110" rx="14"/>
+  <text class="title" x="390" y="184" font-size="18">C# ViewModel</text>
+  <text class="text"  x="390" y="212">State + commands</text>
+
+  <rect class="card" x="660" y="140" width="260" height="110" rx="14"/>
+  <text class="title" x="690" y="184" font-size="18">C++/WinRT core</text>
+  <text class="text"  x="690" y="212">Crypto + protocol</text>
+
+  <rect class="card" x="980" y="140" width="160" height="110" rx="14"/>
+  <text class="title" x="1008" y="184" font-size="18">Network</text>
+  <text class="text"  x="1008" y="212">WSS/TLS</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M300 195 L360 195"/>
+  <path class="arrow" d="M600 195 L660 195"/>
+  <path class="arrow" d="M920 195 L980 195"/>
+
+  <!-- Footer note -->
+  <text x="80" y="310" class="muted">
+    Note: This repository focuses on documentation/preservation; it does not provide proprietary source code.
+  </text>
+</svg>

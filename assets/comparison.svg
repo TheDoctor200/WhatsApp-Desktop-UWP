@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="UWP vs WebView2 approximate resource profile">
+  <defs>
+    <style>
+      .bg { fill: #0b1220; }
+      .panel { fill: #111b2e; stroke: #25314d; stroke-width: 2; }
+      .title { fill: #e5e7eb; font: 700 22px 'Segoe UI', Inter, Arial, sans-serif; }
+      .text { fill: #cbd5e1; font: 16px 'Segoe UI', Inter, Arial, sans-serif; }
+      .muted { fill: #94a3b8; font: 13px 'Segoe UI', Inter, Arial, sans-serif; }
+      .axis { stroke: #25314d; stroke-width: 2; }
+      .uwp { fill: #22c55e; }
+      .web { fill: #4f8cff; }
+      .label { fill: #e5e7eb; font: 14px 'Segoe UI', Inter, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="520"/>
+  <rect class="panel" x="60" y="60" width="1080" height="400" rx="18"/>
+
+  <text class="title" x="96" y="108">Old UWP vs New WebView2 (approximate)</text>
+  <text class="muted" x="96" y="134">Values are illustrative and depend on system configuration and usage.</text>
+
+  <!-- Legend -->
+  <rect class="uwp" x="96" y="152" width="14" height="14" rx="3"/><text class="label" x="120" y="164">Old UWP</text>
+  <rect class="web" x="220" y="152" width="14" height="14" rx="3"/><text class="label" x="244" y="164">WebView2</text>
+
+  <!-- Axes baseline -->
+  <line class="axis" x1="120" y1="412" x2="1080" y2="412"/>
+
+  <!-- Bars (simple normalized scale) -->
+  <!-- Startup time -->
+  <text class="text" x="120" y="216">Startup time</text>
+  <rect class="uwp" x="300" y="196" width="140" height="22" rx="6"/>
+  <rect class="web" x="300" y="224" width="340" height="22" rx="6"/>
+  <text class="muted" x="660" y="213">~2–3s</text>
+  <text class="muted" x="660" y="241">~5–8s</text>
+
+  <!-- Memory -->
+  <text class="text" x="120" y="288">Idle memory</text>
+  <rect class="uwp" x="300" y="268" width="180" height="22" rx="6"/>
+  <rect class="web" x="300" y="296" width="520" height="22" rx="6"/>
+  <text class="muted" x="840" y="285">~100–200MB</text>
+  <text class="muted" x="840" y="313">~400–800MB</text>
+
+  <!-- Disk -->
+  <text class="text" x="120" y="360">Disk footprint</text>
+  <rect class="uwp" x="300" y="340" width="120" height="22" rx="6"/>
+  <rect class="web" x="300" y="368" width="420" height="22" rx="6"/>
+  <text class="muted" x="740" y="357">~50MB</text>
+  <text class="muted" x="740" y="385">~200–500MB</text>
+
+  <!-- Footer -->
+  <text class="muted" x="96" y="442">Tip: Keep this chart consistent with the README table if you update the numbers.</text>
+</svg>
