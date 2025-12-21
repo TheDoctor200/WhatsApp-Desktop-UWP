@@ -109,9 +109,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to t
 
 ## Links
 
-- [Repository](https://github.com/TheDoctor200/WhatsApp-Desktop-UWP)
-- [Issues](https://github.com/TheDoctor200/WhatsApp-Desktop-UWP/issues)
-- [Releases](https://github.com/TheDoctor200/WhatsApp-Desktop-UWP/releases)
+- [Issues](../../issues)
+- [Pull Requests](../../pulls)
+- [Releases](../../releases)
 
 ---
 

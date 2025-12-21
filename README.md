@@ -44,13 +44,15 @@ The old native UWP app included:
 | Feature | Old UWP App | New WebView2 App |
 |---------|-------------|------------------|
 | **Technology** | Native XAML + C++/C# | Electron-like WebView2 |
-| **Startup Time** | Fast (~2-3 sec) | Slow (~5-8 sec) |
-| **Memory Usage** | ~100-200 MB | ~400-800 MB |
-| **Disk Space** | ~50 MB | ~200-500 MB |
+| **Startup Time** | Fast (~2-3 sec)* | Slow (~5-8 sec)* |
+| **Memory Usage** | ~100-200 MB* | ~400-800 MB* |
+| **Disk Space** | ~50 MB* | ~200-500 MB* |
 | **Windows Integration** | Deep (Live Tiles, etc.) | Limited |
 | **Notifications** | Native Action Center | Web notifications |
 | **UI Framework** | Native XAML | Web (HTML/CSS) |
 | **Updates** | Controlled | Forced automatic |
+
+_*Values are approximate and may vary based on system configuration, usage patterns, and Windows version. Measurements based on typical usage scenarios._
 
 ## Installation
 

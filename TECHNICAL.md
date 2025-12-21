@@ -217,20 +217,17 @@ WhatsApp.msix
 
 ## API Endpoints (Reference)
 
-⚠️ **Note**: These are for educational purposes only.
+⚠️ **IMPORTANT**: This information is provided **strictly for educational and archival purposes only**.
 
-```
-Primary:
-- wss://web.whatsapp.com/ws
-- https://web.whatsapp.com/
+**Do not use this information to:**
+- Attempt unauthorized access to WhatsApp services
+- Create unofficial clients or bots
+- Reverse engineer or exploit WhatsApp protocols
+- Violate WhatsApp's Terms of Service
 
-Media:
-- https://mmg.whatsapp.net/
-- https://pps.whatsapp.net/
+The original UWP app communicated with WhatsApp's official servers using documented protocols. Specific endpoint details are intentionally omitted to prevent misuse. For legitimate development, use WhatsApp Business API through official channels.
 
-Authentication:
-- https://v.whatsapp.net/v2/
-```
+**Note**: Unauthorized access attempts may result in account bans, legal action, or criminal charges under computer fraud laws.
 
 ## Development Tools
 

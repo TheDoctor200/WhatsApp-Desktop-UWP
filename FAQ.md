@@ -402,7 +402,7 @@ The app itself is archived and won't receive new features. However, you can requ
 
 ## Still Have Questions?
 
-- Check existing [Issues](https://github.com/TheDoctor200/WhatsApp-Desktop-UWP/issues)
+- Check existing [Issues](../../issues)
 - Review all documentation files in this repository
 - Open a new issue with the "question" label
 - Search online for community discussions

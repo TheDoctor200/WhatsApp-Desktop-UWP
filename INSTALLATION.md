@@ -219,7 +219,14 @@ wsreset.exe
 
 ```powershell
 # Add firewall rule (if needed)
-New-NetFirewallRule -DisplayName "WhatsApp UWP" -Direction Outbound -Action Allow -Program "%ProgramFiles%\WindowsApps\WhatsApp*\WhatsApp.exe"
+# WARNING: Verify the exact installation path before running this command
+# The wildcard path below is approximate and should be replaced with your actual installation path
+# Example path: C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2148.8.0_x64__cv1g1gvanyjgm\WhatsApp.exe
+# Use Get-AppxPackage to find exact path:
+Get-AppxPackage -Name "*WhatsApp*" | Select-Object InstallLocation
+
+# Then create a specific rule with the full path instead of using wildcards:
+# New-NetFirewallRule -DisplayName "WhatsApp UWP" -Direction Outbound -Action Allow -Program "C:\FULL\PATH\TO\WhatsApp.exe"
 ```
 
 ### Issue: No notifications
