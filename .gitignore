@@ -1,0 +1,56 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+
+# Archives and builds
+*.msix
+*.appx
+*.appxbundle
+*.zip
+*.7z
+*.rar
+
+# Package directories
+node_modules/
+packages/
+
+# Documentation build artifacts
+_site/
+.jekyll-cache/
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Backup files
+*.orig
+*.backup
+
+# Private or local notes
+NOTES.md
+TODO.md
+.private/
