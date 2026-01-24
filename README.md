@@ -2,7 +2,7 @@
 
 ![WhatsApp Desktop UWP Archive banner](assets/banner.svg)
 
-> **Note**: This repository does not ship official WhatsApp logos/icons. Included visuals are original placeholders for documentation styling.
+> **Note**: This repository does not ship official WhatsApp logos/icons. Included visuals are original placeholders for documentation styling. THE MSIX APP IS OUTDATED, USE ALTERNATE VERSION!
 
 > **Archive Notice**: This repository serves as documentation and information about the original WhatsApp Desktop UWP application for Windows 10/11. This is an archived version with update protection to prevent forced migration to the WebView2-based version.
 
