@@ -25,7 +25,7 @@ This repository documents the app, its installation flow, and supporting resourc
 - **API:** Open WhatsApp API
 - **Packaging:** MSIX
 
-## Repository Contents
+## Documentation in This Repository
 
 - `INSTALLATION.md` - setup and install steps
 - `TECHNICAL.md` - architecture and implementation notes
