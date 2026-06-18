@@ -2,7 +2,7 @@
 
 ![WhatsApp Desktop UWP banner](assets/banner.svg)
 
-WhatsApp Desktop UWP is the historical repository name retained for continuity for a Windows desktop app with a **WinUI-based** interface and the project's **unofficial Open WhatsApp API** integration.
+WhatsApp Desktop UWP (a historical repository name retained for continuity) is a Windows desktop app with a **WinUI-based** interface that integrates the project's **unofficial Open WhatsApp API**.
 
 ## Overview
 
@@ -31,4 +31,4 @@ This project uses an unofficial API integration. Risks can include account suspe
 
 ## Documentation
 
-See `INSTALLATION.md`, `TECHNICAL.md`, `FAQ.md`, `DISCLAIMER.md`, and `RESOURCES.md` in the repository root; all five files are included there.
+See `INSTALLATION.md`, `TECHNICAL.md`, `FAQ.md`, `DISCLAIMER.md`, and `RESOURCES.md` in the repository root.
