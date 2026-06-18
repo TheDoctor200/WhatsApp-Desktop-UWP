@@ -6,11 +6,11 @@ WhatsApp Desktop UWP is a Windows desktop app with a **WinUI-based** interface a
 
 ## Overview
 
-This repository documents the app, its installation flow, and supporting resources for users who want a native Windows experience. See [DISCLAIMER.md](DISCLAIMER.md) for legal, support, and security considerations, including account-risk notes related to the API usage.
+This repository documents the app, its installation flow, and supporting resources for users who want a native Windows experience. Legal, support, and security considerations are covered elsewhere in the repository.
 
 ## Warning
 
-This project uses an unofficial API integration. This can affect account safety, service reliability, and long-term support. Read [DISCLAIMER.md](DISCLAIMER.md) before using it.
+This project uses an unofficial API integration. This can affect account safety, service reliability, and long-term support. Review the disclaimer in this repository before using it.
 
 ![High-level architecture diagram](assets/architecture.svg)
 
@@ -29,22 +29,6 @@ This project uses an unofficial API integration. This can affect account safety,
 - **API:** Open WhatsApp API (unofficial)
 - **Packaging:** MSIX
 
-## Documentation in This Repository
+## Documentation
 
-- `INSTALLATION.md` - setup and install steps
-- `TECHNICAL.md` - architecture and implementation notes
-- `FAQ.md` - common questions
-- `DISCLAIMER.md` - legal and usage notes
-- `RESOURCES.md` - useful references
-
-## Installation
-
-See [INSTALLATION.md](INSTALLATION.md) for the current setup instructions.
-
-## Support
-
-If you run into issues, check the [FAQ](FAQ.md) first, then open an issue with details about your environment and the problem.
-
-## License
-
-See [LICENSE](LICENSE) for licensing details.
+Additional installation, technical, FAQ, and disclaimer details are included in the repository.
