@@ -2,7 +2,7 @@
 
 ![WhatsApp Desktop UWP banner](assets/banner.svg)
 
-WhatsApp Desktop UWP is a Windows desktop app built for **UWP** with a **WinUI 2** interface and powered by the project's **unofficial Open WhatsApp API** integration.
+WhatsApp Desktop UWP is a Windows desktop app with a **WinUI-based** interface and the project's **unofficial Open WhatsApp API** integration.
 
 ## Overview
 
@@ -16,7 +16,7 @@ This project uses an unofficial API integration. This can affect account safety,
 
 ## Highlights
 
-- Native **WinUI 2** interface
+- Native **WinUI-based** interface
 - Built for **Windows 10/11**
 - Uses the **Open WhatsApp API** as an unofficial integration
 - Lightweight desktop-friendly UI
@@ -24,8 +24,8 @@ This project uses an unofficial API integration. This can affect account safety,
 
 ## Tech Stack
 
-- **UI:** WinUI 2
-- **Platform:** UWP
+- **UI:** WinUI
+- **Target:** Windows desktop
 - **API:** Open WhatsApp API (unofficial)
 - **Packaging:** MSIX
 
